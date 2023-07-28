@@ -18,3 +18,6 @@ Sample Output 0:
 Sample Case 1:
 n = 3
 arr = [1, 7, 2]
+
+Sample Output 1:
+3
