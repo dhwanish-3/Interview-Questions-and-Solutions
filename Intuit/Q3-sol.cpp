@@ -19,6 +19,6 @@ int main(){
     for (int i = 0; i < n; i++){
         cin >> a[i] >> b[i];
     }
-    DrageRaceWinner(a, b);
+    cout << DrageRaceWinner(a, b);
     return 0;
 }
