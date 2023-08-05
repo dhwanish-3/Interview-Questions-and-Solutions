@@ -3,20 +3,16 @@ using namespace std;
 
 vector<int> GoodTank(int n, int m){
     vector<int> arr;
-    // if(n<m){
-    //     n=m;
-    // }
-    for(int i=0;i<m;i++){
-        arr.push_back(i%(n)+1);
-        cout<<arr[i]<<" ";
+    for(int i = 0;i < m; i++){
+        arr.push_back(i % (n) + 1);
+        cout << arr[i] << " ";
     }
-    
     return arr;
 }
 
 int main(){
     
-    int n,m;
+    int n, m;
     cin>>n>>m;
 
     vector<int> arr = GoodTank(n,m);
